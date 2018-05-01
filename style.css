@@ -1,0 +1,21 @@
+	a:link, a:active, a:visited, a:hover {text-decoration:none;}
+		a:link, a:active, a:visited {color: black;}
+		
+		body {width: 100%}
+		nav {width: 100%}
+
+		nav { width:1000px; margin:auto; height:44px; margin-top: 60px }
+		nav #logo { width:200px; height:44px; float:left;}
+		nav #logo a {display:block; text-align:center; line-height:44px}
+		nav #logo a:hover {font-weight: bold;}
+		nav #menulist { float:right; margin: 0; padding: 0}
+		nav #menulist .main-menu-item {list-style:none; float: left; width:150px; height:44px;}
+		nav #menulist a {display: block; height:44px;
+							text-align:center; line-height: 44px}
+		nav #menulist a:hover {font-weight:bold; }
+
+		.main {margin: auto; background-size: 100% auto; height: 600px;}
+		.main img {width: 50%;}
+			#img {margin-left: auto; margin-right: auto; display: block;
+					margin-top: 70px}
+		.main p {text-align: center; margin-top:50px}
